@@ -13,8 +13,8 @@ export default function EditCar(props) {
       brand: '', model: '', color: '', fuel: '', year: '', price: ''
   });
 
+  //new Comment
   const handleClickOpen = () => {
-    console.log(props.car);
     setCar({brand: props.car.Brand, model: props.car.Model, 
     color: props.car.Color, fuel: props.car.Fuel,
     year: props.car.Year, price: props.car.Price})
